@@ -8,7 +8,7 @@ One aspect of developing this application is that I discovered that there is a n
 
 Pretty awesome, in a 1980s DOS kind of way.
 
-Github      https://github.com/seanhellier/wordguess-node
+Github      https://github.com/seanhellier/wordguess-node-2
 
 Portfolio   https://seanhellier.github.io/dev-portfolio/
 
