@@ -1,0 +1,24 @@
+{
+  "name": "wordguess-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanhellier/wordguess-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanhellier/wordguess-node/issues"
+  },
+  "homepage": "https://github.com/seanhellier/wordguess-node#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.1.0",
+    "inquirer": "^7.0.0"
+  }
+}
