@@ -22,6 +22,23 @@ var chosenWord = '';
 var gameWord = '';
 var counter = 0;
 
+function playAgain() {
+	inquirer
+		.prompt([
+			{
+				name: 'playAgain',
+				type: 'list',
+				message: 'Want to play again? ',
+				choices: [ 'YES', 'NO' ]
+			}
+		])
+		.then(function(answers) {
+			if (answers.playAgain === 'YES') {
+				startGame();
+			}
+		});
+}
+
 //derive a word from the array, and use the word constructor for the program logic
 function startGame() {
 	if (wordList.length < 2) {
@@ -93,7 +110,7 @@ function rightGuess() {
 		gameWord = '';
 		select = 0;
 		counter = 0;
-		startGame();
+		playAgain();
 	} else {
 		promptUser();
 	}
